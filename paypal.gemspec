@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{jonathantron-paypal}
+  s.name = %q{paypal}
   s.version = "3.0.0pre4"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.md",
      "Rakefile",
-     "jonathantron-paypal.gemspec",
+     "paypal.gemspec",
      "lib/paypal.rb",
      "lib/paypal/certs/paypal_sandbox.pem",
      "lib/paypal/config.rb",
