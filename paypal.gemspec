@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency(%q<rack>, [">= 1.0.0"])
 
+  s.add_development_dependency(%q<rake>)
   s.add_development_dependency(%q<rspec>, ["~> 2.6.0"])
   s.add_development_dependency(%q<rcov>, [">= 0.9.8"])
   s.add_development_dependency(%q<nokogiri>, [">= 0"])
