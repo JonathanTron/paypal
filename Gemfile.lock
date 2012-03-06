@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jonathantron-paypal (3.0.0pre5)
+    jonathantron-paypal (3.0.0pre6)
       rack (>= 1.0.0)
 
 GEM

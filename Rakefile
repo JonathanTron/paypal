@@ -1,14 +1,13 @@
 require "rubygems"
 
+require 'bundler'
+Bundler::GemHelper.install_tasks
+
 $:.unshift "./lib"
 require "paypal"
 
 require "rspec/core/rake_task"
 ::RSpec::Core::RakeTask.new(:spec)
-::RSpec::Core::RakeTask.new(:rcov) do |spec|
-  spec.rcov = true
-  spec.rcov_opts = "--exclude spec/"
-end
 task :default => :spec
 
 begin
