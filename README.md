@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/JonathanTron/paypal.png?branch=master)](http://travis-ci.org/JonathanTron/paypal)
+
 # Welcome to Paypal ruby library
 
 This library is here to aid with integrating Paypal payments into ruby on rails
@@ -11,7 +13,7 @@ business account and tell paypal where to send the IPN ( Instant payment notific
 
 # Requirements
 
-* Ruby 1.8.2 (may work with previous versions) With OpenSSL support compiled in.
+* Ruby 1.8.7, 1.9.2, 1.9.3, Rubinius and JRuby (with OpenSSL support).
 * Valid paypal business account.
 * (optional) The money library from http://dist.leetsoft.com/api/money
 

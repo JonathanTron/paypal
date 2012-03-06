@@ -1,5 +1,6 @@
 = 3.0.0 (git)
 
+    Add missing require of `common.rb` in `lib/paypal/rails.rb` file (Lairton Borges)
     Update spec task to use the new RSpec module name
     Remove constant/class variable usage and use Thread specific configurations
     Start spec on Paypal::Helpers::Common.paypal_setup
